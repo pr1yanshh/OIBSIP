@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/illustration-thermometer-icon-blue-background_53876-8402.jpg?size=626&ext=jpg&ga=GA1.1.1658961584.1704985084&semt=ais');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+#temperature, #unit {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+#convert {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+}
